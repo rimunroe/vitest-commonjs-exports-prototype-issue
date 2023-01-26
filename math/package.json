@@ -1,0 +1,16 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "postinstall": "rm -r dist; tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Munroe",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "3.7.3"
+  }
+}

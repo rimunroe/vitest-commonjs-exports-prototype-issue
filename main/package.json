@@ -1,0 +1,15 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "Richard Munroe",
+  "license": "ISC",
+  "dependencies": {
+    "math": "file:../math",
+    "vitest": "0.28.1"
+  }
+}
